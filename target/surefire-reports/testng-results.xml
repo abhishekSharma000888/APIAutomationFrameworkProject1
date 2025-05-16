@@ -2,7 +2,7 @@
 <testng-results ignored="0" total="17" passed="10" failed="7" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-16T10:34:57 IST" name="All Test Suite" finished-at="2025-05-16T10:35:07 IST" duration-ms="10264">
+  <suite started-at="2025-05-17T03:49:40 IST" name="All Test Suite" finished-at="2025-05-17T03:49:51 IST" duration-ms="10739">
     <groups>
       <group name="qa">
         <method signature="TestIntegrationFlow1.testCreateBooking(org.testng.ITestContext)[pri:1, instance:com.testFramework.tests.e2e_integration.TestIntegrationFlow1@51e69659]" name="testCreateBooking" class="com.testFramework.tests.e2e_integration.TestIntegrationFlow1"/>
@@ -25,39 +25,39 @@
         <method signature="TestCreateToken.testTokenPOST()[pri:1, instance:com.testFramework.tests.crud.TestCreateToken@82de64a]" name="testTokenPOST" class="com.testFramework.tests.crud.TestCreateToken"/>
       </group> <!-- reg -->
     </groups>
-    <test started-at="2025-05-16T10:34:57 IST" name="/Users/abhisheksharma/Downloads/SDETProjects/APIAutomationFrameworkProject1" finished-at="2025-05-16T10:35:07 IST" duration-ms="10264">
+    <test started-at="2025-05-17T03:49:40 IST" name="/Users/abhisheksharma/Downloads/SDETProjects/APIAutomationFrameworkProject1" finished-at="2025-05-17T03:49:51 IST" duration-ms="10739">
       <class name="com.testFramework.tests.sample.TestIntegrationSample">
-        <test-method signature="testCreateBooking()[pri:1, instance:com.testFramework.tests.sample.TestIntegrationSample@201a4587]" started-at="2025-05-16T10:35:07 IST" name="testCreateBooking" finished-at="2025-05-16T10:35:07 IST" duration-ms="9" status="PASS">
+        <test-method signature="testCreateBooking()[pri:1, instance:com.testFramework.tests.sample.TestIntegrationSample@201a4587]" started-at="2025-05-17T03:49:51 IST" name="testCreateBooking" finished-at="2025-05-17T03:49:51 IST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCreateBooking -->
-        <test-method signature="testVerifyBookingId()[pri:2, instance:com.testFramework.tests.sample.TestIntegrationSample@201a4587]" started-at="2025-05-16T10:35:07 IST" name="testVerifyBookingId" finished-at="2025-05-16T10:35:07 IST" duration-ms="2" status="PASS">
+        <test-method signature="testVerifyBookingId()[pri:2, instance:com.testFramework.tests.sample.TestIntegrationSample@201a4587]" started-at="2025-05-17T03:49:51 IST" name="testVerifyBookingId" finished-at="2025-05-17T03:49:51 IST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testVerifyBookingId -->
-        <test-method signature="testUpdateBookingByID()[pri:3, instance:com.testFramework.tests.sample.TestIntegrationSample@201a4587]" started-at="2025-05-16T10:35:07 IST" name="testUpdateBookingByID" finished-at="2025-05-16T10:35:07 IST" duration-ms="0" status="PASS">
+        <test-method signature="testUpdateBookingByID()[pri:3, instance:com.testFramework.tests.sample.TestIntegrationSample@201a4587]" started-at="2025-05-17T03:49:51 IST" name="testUpdateBookingByID" finished-at="2025-05-17T03:49:51 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUpdateBookingByID -->
-        <test-method signature="testDeleteBookingById()[pri:4, instance:com.testFramework.tests.sample.TestIntegrationSample@201a4587]" started-at="2025-05-16T10:35:07 IST" name="testDeleteBookingById" finished-at="2025-05-16T10:35:07 IST" duration-ms="1" status="PASS">
+        <test-method signature="testDeleteBookingById()[pri:4, instance:com.testFramework.tests.sample.TestIntegrationSample@201a4587]" started-at="2025-05-17T03:49:51 IST" name="testDeleteBookingById" finished-at="2025-05-17T03:49:51 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDeleteBookingById -->
       </class> <!-- com.testFramework.tests.sample.TestIntegrationSample -->
       <class name="com.testFramework.tests.crud.TestCreateBooking">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.testFramework.tests.crud.TestCreateBooking@290222c1]" started-at="2025-05-16T10:34:57 IST" name="setup" finished-at="2025-05-16T10:34:57 IST" duration-ms="502" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.testFramework.tests.crud.TestCreateBooking@290222c1]" started-at="2025-05-17T03:49:40 IST" name="setup" finished-at="2025-05-17T03:49:41 IST" duration-ms="511" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testCreateBookingPOST_Positive()[pri:1, instance:com.testFramework.tests.crud.TestCreateBooking@290222c1]" started-at="2025-05-16T10:34:57 IST" name="testCreateBookingPOST_Positive" finished-at="2025-05-16T10:35:00 IST" duration-ms="3007" status="PASS">
+        <test-method signature="testCreateBookingPOST_Positive()[pri:1, instance:com.testFramework.tests.crud.TestCreateBooking@290222c1]" started-at="2025-05-17T03:49:41 IST" name="testCreateBookingPOST_Positive" finished-at="2025-05-17T03:49:44 IST" duration-ms="3032" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCreateBookingPOST_Positive -->
-        <test-method signature="testCreateBookingPOST_Negative()[pri:1, instance:com.testFramework.tests.crud.TestCreateBooking@290222c1]" started-at="2025-05-16T10:35:00 IST" name="testCreateBookingPOST_Negative" finished-at="2025-05-16T10:35:02 IST" duration-ms="1601" status="PASS">
+        <test-method signature="testCreateBookingPOST_Negative()[pri:1, instance:com.testFramework.tests.crud.TestCreateBooking@290222c1]" started-at="2025-05-17T03:49:44 IST" name="testCreateBookingPOST_Negative" finished-at="2025-05-17T03:49:45 IST" duration-ms="1503" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCreateBookingPOST_Negative -->
-        <test-method signature="testCreateBookingPOST_POSITIVE_CHINESE()[pri:1, instance:com.testFramework.tests.crud.TestCreateBooking@290222c1]" started-at="2025-05-16T10:35:02 IST" name="testCreateBookingPOST_POSITIVE_CHINESE" finished-at="2025-05-16T10:35:04 IST" duration-ms="1599" status="FAIL">
+        <test-method signature="testCreateBookingPOST_POSITIVE_CHINESE()[pri:1, instance:com.testFramework.tests.crud.TestCreateBooking@290222c1]" started-at="2025-05-17T03:49:45 IST" name="testCreateBookingPOST_POSITIVE_CHINESE" finished-at="2025-05-17T03:49:47 IST" duration-ms="1731" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[1 expectation failed.
@@ -127,43 +127,43 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCreateBookingPOST_POSITIVE_CHINESE -->
-        <test-method signature="testCreateBookingPOST_POSITIVE_RANDOM_DATA()[pri:1, instance:com.testFramework.tests.crud.TestCreateBooking@290222c1]" started-at="2025-05-16T10:35:04 IST" name="testCreateBookingPOST_POSITIVE_RANDOM_DATA" finished-at="2025-05-16T10:35:05 IST" duration-ms="1764" status="PASS">
+        <test-method signature="testCreateBookingPOST_POSITIVE_RANDOM_DATA()[pri:1, instance:com.testFramework.tests.crud.TestCreateBooking@290222c1]" started-at="2025-05-17T03:49:47 IST" name="testCreateBookingPOST_POSITIVE_RANDOM_DATA" finished-at="2025-05-17T03:49:49 IST" duration-ms="2025" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCreateBookingPOST_POSITIVE_RANDOM_DATA -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testFramework.tests.crud.TestCreateBooking@290222c1]" started-at="2025-05-16T10:35:07 IST" name="tearDown" finished-at="2025-05-16T10:35:07 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testFramework.tests.crud.TestCreateBooking@290222c1]" started-at="2025-05-17T03:49:51 IST" name="tearDown" finished-at="2025-05-17T03:49:51 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.testFramework.tests.crud.TestCreateBooking -->
       <class name="com.testFramework.tests.e2e_integration.TestIntegrationFlow2">
-        <test-method signature="testCreateBooking(org.testng.ITestContext)[pri:1, instance:com.testFramework.tests.e2e_integration.TestIntegrationFlow2@47e2e487]" started-at="2025-05-16T10:35:07 IST" name="testCreateBooking" finished-at="2025-05-16T10:35:07 IST" duration-ms="5" status="PASS">
+        <test-method signature="testCreateBooking(org.testng.ITestContext)[pri:1, instance:com.testFramework.tests.e2e_integration.TestIntegrationFlow2@47e2e487]" started-at="2025-05-17T03:49:51 IST" name="testCreateBooking" finished-at="2025-05-17T03:49:51 IST" duration-ms="6" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@a047bdb]]>
+                <![CDATA[org.testng.TestRunner@14dbfdb1]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCreateBooking -->
-        <test-method signature="testVerifyBookingId(org.testng.ITestContext)[pri:2, instance:com.testFramework.tests.e2e_integration.TestIntegrationFlow2@47e2e487]" started-at="2025-05-16T10:35:07 IST" name="testVerifyBookingId" finished-at="2025-05-16T10:35:07 IST" duration-ms="1" status="PASS">
+        <test-method signature="testVerifyBookingId(org.testng.ITestContext)[pri:2, instance:com.testFramework.tests.e2e_integration.TestIntegrationFlow2@47e2e487]" started-at="2025-05-17T03:49:51 IST" name="testVerifyBookingId" finished-at="2025-05-17T03:49:51 IST" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@a047bdb]]>
+                <![CDATA[org.testng.TestRunner@14dbfdb1]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testVerifyBookingId -->
-        <test-method signature="testDeleteBookingById(org.testng.ITestContext)[pri:4, instance:com.testFramework.tests.e2e_integration.TestIntegrationFlow2@47e2e487]" started-at="2025-05-16T10:35:07 IST" name="testDeleteBookingById" finished-at="2025-05-16T10:35:07 IST" duration-ms="3" status="PASS">
+        <test-method signature="testDeleteBookingById(org.testng.ITestContext)[pri:4, instance:com.testFramework.tests.e2e_integration.TestIntegrationFlow2@47e2e487]" started-at="2025-05-17T03:49:51 IST" name="testDeleteBookingById" finished-at="2025-05-17T03:49:51 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@a047bdb]]>
+                <![CDATA[org.testng.TestRunner@14dbfdb1]]>
               </value>
             </param>
           </params>
@@ -172,11 +172,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
         </test-method> <!-- testDeleteBookingById -->
       </class> <!-- com.testFramework.tests.e2e_integration.TestIntegrationFlow2 -->
       <class name="com.testFramework.tests.e2e_integration.TestIntegrationFlow1">
-        <test-method signature="testCreateBooking(org.testng.ITestContext)[pri:1, instance:com.testFramework.tests.e2e_integration.TestIntegrationFlow1@51e69659]" started-at="2025-05-16T10:35:05 IST" name="testCreateBooking" finished-at="2025-05-16T10:35:05 IST" duration-ms="1" status="FAIL">
+        <test-method signature="testCreateBooking(org.testng.ITestContext)[pri:1, instance:com.testFramework.tests.e2e_integration.TestIntegrationFlow1@51e69659]" started-at="2025-05-17T03:49:49 IST" name="testCreateBooking" finished-at="2025-05-17T03:49:49 IST" duration-ms="2" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@a047bdb]]>
+                <![CDATA[org.testng.TestRunner@14dbfdb1]]>
               </value>
             </param>
           </params>
@@ -223,11 +223,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCreateBooking -->
-        <test-method signature="testVerifyBookingId(org.testng.ITestContext)[pri:2, instance:com.testFramework.tests.e2e_integration.TestIntegrationFlow1@51e69659]" started-at="2025-05-16T10:35:05 IST" name="testVerifyBookingId" finished-at="2025-05-16T10:35:05 IST" duration-ms="2" status="FAIL">
+        <test-method signature="testVerifyBookingId(org.testng.ITestContext)[pri:2, instance:com.testFramework.tests.e2e_integration.TestIntegrationFlow1@51e69659]" started-at="2025-05-17T03:49:49 IST" name="testVerifyBookingId" finished-at="2025-05-17T03:49:49 IST" duration-ms="2" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@a047bdb]]>
+                <![CDATA[org.testng.TestRunner@14dbfdb1]]>
               </value>
             </param>
           </params>
@@ -274,11 +274,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testVerifyBookingId -->
-        <test-method signature="testUpdateBookingByID(org.testng.ITestContext)[pri:3, instance:com.testFramework.tests.e2e_integration.TestIntegrationFlow1@51e69659]" started-at="2025-05-16T10:35:05 IST" name="testUpdateBookingByID" finished-at="2025-05-16T10:35:05 IST" duration-ms="2" status="FAIL">
+        <test-method signature="testUpdateBookingByID(org.testng.ITestContext)[pri:3, instance:com.testFramework.tests.e2e_integration.TestIntegrationFlow1@51e69659]" started-at="2025-05-17T03:49:49 IST" name="testUpdateBookingByID" finished-at="2025-05-17T03:49:49 IST" duration-ms="2" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@a047bdb]]>
+                <![CDATA[org.testng.TestRunner@14dbfdb1]]>
               </value>
             </param>
           </params>
@@ -326,11 +326,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUpdateBookingByID -->
-        <test-method signature="testDeleteBookingById(org.testng.ITestContext)[pri:4, instance:com.testFramework.tests.e2e_integration.TestIntegrationFlow1@51e69659]" started-at="2025-05-16T10:35:05 IST" name="testDeleteBookingById" finished-at="2025-05-16T10:35:07 IST" duration-ms="1580" status="FAIL">
+        <test-method signature="testDeleteBookingById(org.testng.ITestContext)[pri:4, instance:com.testFramework.tests.e2e_integration.TestIntegrationFlow1@51e69659]" started-at="2025-05-17T03:49:49 IST" name="testDeleteBookingById" finished-at="2025-05-17T03:49:51 IST" duration-ms="1710" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@a047bdb]]>
+                <![CDATA[org.testng.TestRunner@14dbfdb1]]>
               </value>
             </param>
           </params>
@@ -403,7 +403,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
         </test-method> <!-- testDeleteBookingById -->
       </class> <!-- com.testFramework.tests.e2e_integration.TestIntegrationFlow1 -->
       <class name="com.testFramework.tests.crud.TestHealthCheck">
-        <test-method signature="testGETHealthCheck()[pri:0, instance:com.testFramework.tests.crud.TestHealthCheck@659499f1]" started-at="2025-05-16T10:35:05 IST" name="testGETHealthCheck" finished-at="2025-05-16T10:35:05 IST" duration-ms="3" status="FAIL">
+        <test-method signature="testGETHealthCheck()[pri:0, instance:com.testFramework.tests.crud.TestHealthCheck@659499f1]" started-at="2025-05-17T03:49:49 IST" name="testGETHealthCheck" finished-at="2025-05-17T03:49:49 IST" duration-ms="3" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "io.restassured.specification.RequestSpecification.basePath(String)" because "this.requestSpecification" is null]]>
@@ -449,7 +449,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
         </test-method> <!-- testGETHealthCheck -->
       </class> <!-- com.testFramework.tests.crud.TestHealthCheck -->
       <class name="com.testFramework.tests.crud.TestCreateToken">
-        <test-method signature="testTokenPOST()[pri:1, instance:com.testFramework.tests.crud.TestCreateToken@82de64a]" started-at="2025-05-16T10:35:05 IST" name="testTokenPOST" finished-at="2025-05-16T10:35:05 IST" duration-ms="17" status="FAIL">
+        <test-method signature="testTokenPOST()[pri:1, instance:com.testFramework.tests.crud.TestCreateToken@82de64a]" started-at="2025-05-17T03:49:49 IST" name="testTokenPOST" finished-at="2025-05-17T03:49:49 IST" duration-ms="21" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "io.restassured.specification.RequestSpecification.basePath(String)" because "this.requestSpecification" is null]]>

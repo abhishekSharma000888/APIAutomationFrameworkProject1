@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="11.041" tests="17" errors="0" skipped="0" failures="7">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="11.503" tests="17" errors="0" skipped="0" failures="7">
   <properties>
     <property name="java.specification.version" value="20"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -13,7 +13,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/Users/abhisheksharma/Library/Java/JavaVirtualMachines/openjdk-20.0.1/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/abhisheksharma/Downloads/SDETProjects/APIAutomationFrameworkProject1/target/surefire/surefirebooter-20250516103456378_3.jar /Users/abhisheksharma/Downloads/SDETProjects/APIAutomationFrameworkProject1/target/surefire 2025-05-16T10-34-56_292-jvmRun1 surefire-20250516103456378_1tmp surefire_0-20250516103456378_2tmp"/>
+    <property name="sun.java.command" value="/Users/abhisheksharma/Downloads/SDETProjects/APIAutomationFrameworkProject1/target/surefire/surefirebooter-20250517034939840_3.jar /Users/abhisheksharma/Downloads/SDETProjects/APIAutomationFrameworkProject1/target/surefire 2025-05-17T03-49-39_755-jvmRun1 surefire-20250517034939840_1tmp surefire_0-20250517034939840_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/abhisheksharma/Downloads/SDETProjects/APIAutomationFrameworkProject1/target/test-classes:/Users/abhisheksharma/Downloads/SDETProjects/APIAutomationFrameworkProject1/target/classes:/Users/abhisheksharma/.m2/repository/io/rest-assured/rest-assured/5.5.1/rest-assured-5.5.1.jar:/Users/abhisheksharma/.m2/repository/org/apache/groovy/groovy/4.0.22/groovy-4.0.22.jar:/Users/abhisheksharma/.m2/repository/org/apache/groovy/groovy-xml/4.0.22/groovy-xml-4.0.22.jar:/Users/abhisheksharma/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/abhisheksharma/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/abhisheksharma/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/abhisheksharma/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/abhisheksharma/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/abhisheksharma/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/abhisheksharma/.m2/repository/io/rest-assured/json-path/5.5.1/json-path-5.5.1.jar:/Users/abhisheksharma/.m2/repository/org/apache/groovy/groovy-json/4.0.22/groovy-json-4.0.22.jar:/Users/abhisheksharma/.m2/repository/io/rest-assured/rest-assured-common/5.5.1/rest-assured-common-5.5.1.jar:/Users/abhisheksharma/.m2/repository/io/rest-assured/xml-path/5.5.1/xml-path-5.5.1.jar:/Users/abhisheksharma/.m2/repository/org/testng/testng/7.10.2/testng-7.10.2.jar:/Users/abhisheksharma/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/abhisheksharma/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/abhisheksharma/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/abhisheksharma/.m2/repository/io/qameta/allure/allure-testng/2.27.0/allure-testng-2.27.0.jar:/Users/abhisheksharma/.m2/repository/io/qameta/allure/allure-java-commons/2.27.0/allure-java-commons-2.27.0.jar:/Users/abhisheksharma/.m2/repository/io/qameta/allure/allure-model/2.27.0/allure-model-2.27.0.jar:/Users/abhisheksharma/.m2/repository/io/qameta/allure/allure-test-filter/2.27.0/allure-test-filter-2.27.0.jar:/Users/abhisheksharma/.m2/repository/org/assertj/assertj-core/3.25.1/assertj-core-3.25.1.jar:/Users/abhisheksharma/.m2/repository/net/bytebuddy/byte-buddy/1.14.11/byte-buddy-1.14.11.jar:/Users/abhisheksharma/.m2/repository/com/google/code/gson/gson/2.11.0/gson-2.11.0.jar:/Users/abhisheksharma/.m2/repository/com/google/errorprone/error_prone_annotations/2.27.0/error_prone_annotations-2.27.0.jar:/Users/abhisheksharma/.m2/repository/io/rest-assured/json-schema-validator/5.4.0/json-schema-validator-5.4.0.jar:/Users/abhisheksharma/.m2/repository/com/github/java-json-tools/json-schema-validator/2.2.14/json-schema-validator-2.2.14.jar:/Users/abhisheksharma/.m2/repository/com/github/java-json-tools/jackson-coreutils-equivalence/1.0/jackson-coreutils-equivalence-1.0.jar:/Users/abhisheksharma/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.0/jackson-databind-2.11.0.jar:/Users/abhisheksharma/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.0/jackson-annotations-2.11.0.jar:/Users/abhisheksharma/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.0/jackson-core-2.11.0.jar:/Users/abhisheksharma/.m2/repository/com/github/java-json-tools/jackson-coreutils/2.0/jackson-coreutils-2.0.jar:/Users/abhisheksharma/.m2/repository/com/github/java-json-tools/msg-simple/1.2/msg-simple-1.2.jar:/Users/abhisheksharma/.m2/repository/com/github/java-json-tools/btf/1.3/btf-1.3.jar:/Users/abhisheksharma/.m2/repository/com/github/java-json-tools/json-schema-core/1.2.14/json-schema-core-1.2.14.jar:/Users/abhisheksharma/.m2/repository/com/github/java-json-tools/uri-template/0.10/uri-template-0.10.jar:/Users/abhisheksharma/.m2/repository/org/mozilla/rhino/1.7.7.2/rhino-1.7.7.2.jar:/Users/abhisheksharma/.m2/repository/com/sun/mail/mailapi/1.6.2/mailapi-1.6.2.jar:/Users/abhisheksharma/.m2/repository/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar:/Users/abhisheksharma/.m2/repository/com/googlecode/libphonenumber/libphonenumber/8.11.1/libphonenumber-8.11.1.jar:/Users/abhisheksharma/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/abhisheksharma/.m2/repository/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/Users/abhisheksharma/.m2/repository/com/google/guava/guava/32.0.1-jre/guava-32.0.1-jre.jar:/Users/abhisheksharma/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/abhisheksharma/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/abhisheksharma/.m2/repository/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.jar:/Users/abhisheksharma/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/Users/abhisheksharma/.m2/repository/org/apache/logging/log4j/log4j-core/2.24.0/log4j-core-2.24.0.jar:/Users/abhisheksharma/.m2/repository/org/apache/logging/log4j/log4j-api/2.24.0/log4j-api-2.24.0.jar:/Users/abhisheksharma/.m2/repository/org/apache/poi/poi/5.2.3/poi-5.2.3.jar:/Users/abhisheksharma/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/abhisheksharma/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/abhisheksharma/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/abhisheksharma/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/abhisheksharma/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/abhisheksharma/.m2/repository/org/apache/poi/poi-ooxml/5.2.3/poi-ooxml-5.2.3.jar:/Users/abhisheksharma/.m2/repository/org/apache/poi/poi-ooxml-lite/5.2.3/poi-ooxml-lite-5.2.3.jar:/Users/abhisheksharma/.m2/repository/org/apache/xmlbeans/xmlbeans/5.1.1/xmlbeans-5.1.1.jar:/Users/abhisheksharma/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/Users/abhisheksharma/.m2/repository/com/github/virtuald/curvesapi/1.07/curvesapi-1.07.jar:/Users/abhisheksharma/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/abhisheksharma/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/Users/abhisheksharma/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/abhisheksharma/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/abhisheksharma/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:"/>
@@ -30,7 +30,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/abhisheksharma/Downloads/SDETProjects/APIAutomationFrameworkProject1/target/surefire/surefirebooter-20250516103456378_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/abhisheksharma/Downloads/SDETProjects/APIAutomationFrameworkProject1/target/surefire/surefirebooter-20250517034939840_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="20.0.1+9-29"/>
@@ -59,7 +59,7 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="64.0"/>
   </properties>
-  <testcase name="testCreateBookingPOST_Positive" classname="com.testFramework.tests.crud.TestCreateBooking" time="3.045">
+  <testcase name="testCreateBookingPOST_Positive" classname="com.testFramework.tests.crud.TestCreateBooking" time="3.072">
     <system-out><![CDATA[Starting of the Test
 com.testFramework.pojos.request.Booking@3cc20577
 Request method:	POST
@@ -108,14 +108,14 @@ Body:
     },
     "additionalneeds": "Breakfast"
 }
-{"bookingid":1854,"booking":{"firstname":"Pramod","lastname":"Dutta","totalprice":112,"depositpaid":true,"bookingdates":{"checkin":"2024-02-01","checkout":"2024-02-01"},"additionalneeds":"Breakfast"}}
+{"bookingid":4587,"booking":{"firstname":"Pramod","lastname":"Dutta","totalprice":112,"depositpaid":true,"bookingdates":{"checkin":"2024-02-01","checkout":"2024-02-01"},"additionalneeds":"Breakfast"}}
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="testCreateBookingPOST_Negative" classname="com.testFramework.tests.crud.TestCreateBooking" time="1.603">
+  <testcase name="testCreateBookingPOST_Negative" classname="com.testFramework.tests.crud.TestCreateBooking" time="1.504">
     <system-out><![CDATA[Request method:	POST
 Request URI:	https://restful-booker.herokuapp.com/booking
 Proxy:			<none>
@@ -149,21 +149,21 @@ Body:
 Internal Server Error
 HTTP/1.1 500 Internal Server Error
 Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1747371902&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=nTbdnV0zl%2B6g42zPVWf9Tq0MemmFvnYMD1QEW3uH%2FLc%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1747371902&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=nTbdnV0zl%2B6g42zPVWf9Tq0MemmFvnYMD1QEW3uH%2FLc%3D
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1747433985&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=Nua3uHMkxISTAoz0d6e4MlFf%2Br3FiSHQ0Rg%2Fe5f8kZI%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1747433985&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=Nua3uHMkxISTAoz0d6e4MlFf%2Br3FiSHQ0Rg%2Fe5f8kZI%3D
 Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Connection: keep-alive
 X-Powered-By: Express
 Content-Type: text/plain; charset=utf-8
 Content-Length: 21
 Etag: W/"15-/6VXivhc2MKdLfIkLcUE47K6aH0"
-Date: Fri, 16 May 2025 05:05:02 GMT
+Date: Fri, 16 May 2025 22:19:45 GMT
 Via: 1.1 vegur
 
 Internal Server Error
 ]]></system-out>
   </testcase>
-  <testcase name="testCreateBookingPOST_POSITIVE_CHINESE" classname="com.testFramework.tests.crud.TestCreateBooking" time="1.612">
+  <testcase name="testCreateBookingPOST_POSITIVE_CHINESE" classname="com.testFramework.tests.crud.TestCreateBooking" time="1.746">
     <failure message="1 expectation failed.&#10;Expected status code &lt;500&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <500> but was <200>.
@@ -222,7 +222,7 @@ Expected status code <500> but was <200>.
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
-    <system-out><![CDATA[com.testFramework.pojos.request.Booking@5b88b8e
+    <system-out><![CDATA[com.testFramework.pojos.request.Booking@58253c57
 Request method:	POST
 Request URI:	https://restful-booker.herokuapp.com/booking
 Proxy:			<none>
@@ -269,22 +269,22 @@ Body:
     },
     "additionalneeds": "会意; 會意"
 }
-{"bookingid":1883,"booking":{"firstname":"会意; 會意","lastname":"会意; 會意","totalprice":112,"depositpaid":false,"bookingdates":{"checkin":"5025-02-01","checkout":"5025-02-01"},"additionalneeds":"会意; 會意"}}
+{"bookingid":4614,"booking":{"firstname":"会意; 會意","lastname":"会意; 會意","totalprice":112,"depositpaid":false,"bookingdates":{"checkin":"5025-02-01","checkout":"5025-02-01"},"additionalneeds":"会意; 會意"}}
 HTTP/1.1 200 OK
 Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1747371903&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=0iG2OROJrgK3dYBLf6WjH5TLCIQR%2BUuSUJTPESbRpJA%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1747371903&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=0iG2OROJrgK3dYBLf6WjH5TLCIQR%2BUuSUJTPESbRpJA%3D
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1747433987&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=MZpg6FDI%2BSrj3Z8gzFcdBLcrwXwiG4rto6jF5B7NkfY%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1747433987&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=MZpg6FDI%2BSrj3Z8gzFcdBLcrwXwiG4rto6jF5B7NkfY%3D
 Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Connection: keep-alive
 X-Powered-By: Express
 Content-Type: application/json; charset=utf-8
 Content-Length: 223
-Etag: W/"df-JagIkCZOC41CYIM1i/IFOfzfHiE"
-Date: Fri, 16 May 2025 05:05:03 GMT
+Etag: W/"df-ccWglCwX126AZDx1iuM44VxQXtM"
+Date: Fri, 16 May 2025 22:19:47 GMT
 Via: 1.1 vegur
 
 {
-    "bookingid": 1883,
+    "bookingid": 4614,
     "booking": {
         "firstname": "会意; 會意",
         "lastname": "会意; 會意",
@@ -299,8 +299,8 @@ Via: 1.1 vegur
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testCreateBookingPOST_POSITIVE_RANDOM_DATA" classname="com.testFramework.tests.crud.TestCreateBooking" time="1.776">
-    <system-out><![CDATA[com.testFramework.pojos.request.Booking@1fa9692b
+  <testcase name="testCreateBookingPOST_POSITIVE_RANDOM_DATA" classname="com.testFramework.tests.crud.TestCreateBooking" time="2.032">
+    <system-out><![CDATA[com.testFramework.pojos.request.Booking@710afd47
 Request method:	POST
 Request URI:	https://restful-booker.herokuapp.com/booking
 Proxy:			<none>
@@ -314,9 +314,9 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "firstname": "Dortha",
-    "lastname": "Ferry",
-    "totalprice": 705,
+    "firstname": "Truman",
+    "lastname": "Ratke",
+    "totalprice": 942,
     "depositpaid": true,
     "bookingdates": {
         "checkin": "2024-02-01",
@@ -337,9 +337,9 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "firstname": "Dortha",
-    "lastname": "Ferry",
-    "totalprice": 705,
+    "firstname": "Truman",
+    "lastname": "Ratke",
+    "totalprice": 942,
     "depositpaid": true,
     "bookingdates": {
         "checkin": "2024-02-01",
@@ -347,26 +347,26 @@ Body:
     },
     "additionalneeds": "Breakfast"
 }
-{"bookingid":1902,"booking":{"firstname":"Dortha","lastname":"Ferry","totalprice":705,"depositpaid":true,"bookingdates":{"checkin":"2024-02-01","checkout":"2024-02-01"},"additionalneeds":"Breakfast"}}
+{"bookingid":4634,"booking":{"firstname":"Truman","lastname":"Ratke","totalprice":942,"depositpaid":true,"bookingdates":{"checkin":"2024-02-01","checkout":"2024-02-01"},"additionalneeds":"Breakfast"}}
 HTTP/1.1 200 OK
 Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1747371905&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=cbGz2tV8UHgPGVusDyIZyUntseH1sS00DFxVBp5QU9M%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1747371905&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=cbGz2tV8UHgPGVusDyIZyUntseH1sS00DFxVBp5QU9M%3D
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1747433989&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=v8%2BnLw03CGVMV7zKk3xSBaFHJD2V7MFlCIYC2KJkuwQ%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1747433989&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=v8%2BnLw03CGVMV7zKk3xSBaFHJD2V7MFlCIYC2KJkuwQ%3D
 Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Connection: keep-alive
 X-Powered-By: Express
 Content-Type: application/json; charset=utf-8
 Content-Length: 200
-Etag: W/"c8-jD/pSi8Y19WeylPPviWBvB9OSxY"
-Date: Fri, 16 May 2025 05:05:05 GMT
+Etag: W/"c8-wZ8U5MDhZW3kqOhlRPCqxKjeNTI"
+Date: Fri, 16 May 2025 22:19:49 GMT
 Via: 1.1 vegur
 
 {
-    "bookingid": 1902,
+    "bookingid": 4634,
     "booking": {
-        "firstname": "Dortha",
-        "lastname": "Ferry",
-        "totalprice": 705,
+        "firstname": "Truman",
+        "lastname": "Ratke",
+        "totalprice": 942,
         "depositpaid": true,
         "bookingdates": {
             "checkin": "2024-02-01",
@@ -377,7 +377,7 @@ Via: 1.1 vegur
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testTokenPOST" classname="com.testFramework.tests.crud.TestCreateToken" time="0.02">
+  <testcase name="testTokenPOST" classname="com.testFramework.tests.crud.TestCreateToken" time="0.023">
     <failure message="Cannot invoke &quot;io.restassured.specification.RequestSpecification.basePath(String)&quot; because &quot;this.requestSpecification&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "io.restassured.specification.RequestSpecification.basePath(String)" because "this.requestSpecification" is null
 	at com.testFramework.tests.crud.TestCreateToken.testTokenPOST(TestCreateToken.java:20)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
@@ -412,7 +412,7 @@ Via: 1.1 vegur
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
   </testcase>
-  <testcase name="testGETHealthCheck" classname="com.testFramework.tests.crud.TestHealthCheck" time="0.003">
+  <testcase name="testGETHealthCheck" classname="com.testFramework.tests.crud.TestHealthCheck" time="0.006">
     <failure message="Cannot invoke &quot;io.restassured.specification.RequestSpecification.basePath(String)&quot; because &quot;this.requestSpecification&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "io.restassured.specification.RequestSpecification.basePath(String)" because "this.requestSpecification" is null
 	at com.testFramework.tests.crud.TestHealthCheck.testGETHealthCheck(TestHealthCheck.java:17)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
@@ -447,7 +447,7 @@ Via: 1.1 vegur
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
   </testcase>
-  <testcase name="testCreateBooking[org.testng.TestRunner@a047bdb](1)" classname="com.testFramework.tests.e2e_integration.TestIntegrationFlow1" time="0.005">
+  <testcase name="testCreateBooking[org.testng.TestRunner@14dbfdb1](1)" classname="com.testFramework.tests.e2e_integration.TestIntegrationFlow1" time="0.007">
     <failure message="Cannot invoke &quot;io.restassured.specification.RequestSpecification.basePath(String)&quot; because &quot;this.requestSpecification&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "io.restassured.specification.RequestSpecification.basePath(String)" because "this.requestSpecification" is null
 	at com.testFramework.tests.e2e_integration.TestIntegrationFlow1.testCreateBooking(TestIntegrationFlow1.java:36)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
@@ -482,7 +482,7 @@ Via: 1.1 vegur
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
   </testcase>
-  <testcase name="testVerifyBookingId[org.testng.TestRunner@a047bdb](1)" classname="com.testFramework.tests.e2e_integration.TestIntegrationFlow1" time="0.005">
+  <testcase name="testVerifyBookingId[org.testng.TestRunner@14dbfdb1](1)" classname="com.testFramework.tests.e2e_integration.TestIntegrationFlow1" time="0.004">
     <failure message="Cannot invoke &quot;io.restassured.specification.RequestSpecification.basePath(String)&quot; because &quot;this.requestSpecification&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "io.restassured.specification.RequestSpecification.basePath(String)" because "this.requestSpecification" is null
 	at com.testFramework.tests.e2e_integration.TestIntegrationFlow1.testVerifyBookingId(TestIntegrationFlow1.java:60)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
@@ -519,7 +519,7 @@ Via: 1.1 vegur
     <system-out><![CDATA[/booking/null
 ]]></system-out>
   </testcase>
-  <testcase name="testUpdateBookingByID[org.testng.TestRunner@a047bdb](1)" classname="com.testFramework.tests.e2e_integration.TestIntegrationFlow1" time="0.003">
+  <testcase name="testUpdateBookingByID[org.testng.TestRunner@14dbfdb1](1)" classname="com.testFramework.tests.e2e_integration.TestIntegrationFlow1" time="0.004">
     <failure message="Cannot invoke &quot;com.testFramework.modules.PayloadManager.setAuthPayload()&quot; because &quot;this.payloadManager&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "com.testFramework.modules.PayloadManager.setAuthPayload()" because "this.payloadManager" is null
 	at com.testFramework.base.BaseTest.getToken(BaseTest.java:45)
 	at com.testFramework.tests.e2e_integration.TestIntegrationFlow1.testUpdateBookingByID(TestIntegrationFlow1.java:81)
@@ -555,7 +555,7 @@ Via: 1.1 vegur
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
   </testcase>
-  <testcase name="testDeleteBookingById[org.testng.TestRunner@a047bdb](1)" classname="com.testFramework.tests.e2e_integration.TestIntegrationFlow1" time="1.597">
+  <testcase name="testDeleteBookingById[org.testng.TestRunner@14dbfdb1](1)" classname="com.testFramework.tests.e2e_integration.TestIntegrationFlow1" time="1.728">
     <failure message="1 expectation failed.&#10;Expected status code &lt;201&gt; but was &lt;403&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <201> but was <403>.
@@ -614,25 +614,25 @@ Expected status code <201> but was <403>.
 ]]></failure>
     <system-out><![CDATA[HTTP/1.1 403 Forbidden
 Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1747371907&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=OfbK0V6O18isks7OfG2xSNDkemmeRfY3QD3q0fzEoLo%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1747371907&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=OfbK0V6O18isks7OfG2xSNDkemmeRfY3QD3q0fzEoLo%3D
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1747433991&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=KnNxtvcUhBPkE6fiR%2FZFGyZvCkQOAELJkZco4XTJe6w%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1747433991&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=KnNxtvcUhBPkE6fiR%2FZFGyZvCkQOAELJkZco4XTJe6w%3D
 Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Connection: keep-alive
 X-Powered-By: Express
 Content-Type: text/plain; charset=utf-8
 Content-Length: 9
 Etag: W/"9-PatfYBLj4Um1qTm5zrukoLhNyPU"
-Date: Fri, 16 May 2025 05:05:07 GMT
+Date: Fri, 16 May 2025 22:19:51 GMT
 Via: 1.1 vegur
 
 Forbidden
 ]]></system-out>
   </testcase>
-  <testcase name="testCreateBooking[org.testng.TestRunner@a047bdb](1)" classname="com.testFramework.tests.e2e_integration.TestIntegrationFlow2" time="0.005"/>
-  <testcase name="testVerifyBookingId[org.testng.TestRunner@a047bdb](1)" classname="com.testFramework.tests.e2e_integration.TestIntegrationFlow2" time="0.003"/>
-  <testcase name="testDeleteBookingById[org.testng.TestRunner@a047bdb](1)" classname="com.testFramework.tests.e2e_integration.TestIntegrationFlow2" time="0.007"/>
-  <testcase name="testCreateBooking" classname="com.testFramework.tests.sample.TestIntegrationSample" time="0.008"/>
-  <testcase name="testVerifyBookingId" classname="com.testFramework.tests.sample.TestIntegrationSample" time="0.001"/>
+  <testcase name="testCreateBooking[org.testng.TestRunner@14dbfdb1](1)" classname="com.testFramework.tests.e2e_integration.TestIntegrationFlow2" time="0.007"/>
+  <testcase name="testVerifyBookingId[org.testng.TestRunner@14dbfdb1](1)" classname="com.testFramework.tests.e2e_integration.TestIntegrationFlow2" time="0.007"/>
+  <testcase name="testDeleteBookingById[org.testng.TestRunner@14dbfdb1](1)" classname="com.testFramework.tests.e2e_integration.TestIntegrationFlow2" time="0.005"/>
+  <testcase name="testCreateBooking" classname="com.testFramework.tests.sample.TestIntegrationSample" time="0.004"/>
+  <testcase name="testVerifyBookingId" classname="com.testFramework.tests.sample.TestIntegrationSample" time="0.009"/>
   <testcase name="testUpdateBookingByID" classname="com.testFramework.tests.sample.TestIntegrationSample" time="0.001"/>
-  <testcase name="testDeleteBookingById" classname="com.testFramework.tests.sample.TestIntegrationSample" time="0.002"/>
+  <testcase name="testDeleteBookingById" classname="com.testFramework.tests.sample.TestIntegrationSample" time="0.001"/>
 </testsuite>
