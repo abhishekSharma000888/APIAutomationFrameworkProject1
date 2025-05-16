@@ -8,11 +8,8 @@ import com.testFramework.pojos.response.BookingResponse;
 import io.qameta.allure.Description;
 import io.qameta.allure.Owner;
 import io.restassured.RestAssured;
-import org.testng.Assert;
 import org.testng.ITestContext;
 import org.testng.annotations.Test;
-import static io.restassured.RestAssured.requestSpecification;
-
 public class TestIntegrationFlow1 extends BaseTest {
 
     // TestE2EFlow_01
@@ -32,7 +29,7 @@ public class TestIntegrationFlow1 extends BaseTest {
 
 
     @Test(groups = "qa", priority = 1)
-    @Owner("Promode")
+    @Owner("Abhishek")
     @Description("TC#INT1 - Step 1. Verify that the Booking can be Created")
     public void testCreateBooking(ITestContext iTestContext){
 
@@ -52,7 +49,7 @@ public class TestIntegrationFlow1 extends BaseTest {
 
 
     @Test(groups = "qa", priority = 2)
-    @Owner("Promode")
+    @Owner("Abhishek")
     @Description("TC#INT1 - Step 2. Verify that the Booking By ID")
     public void testVerifyBookingId(ITestContext iTestContext){
         Integer bookingid = (Integer) iTestContext.getAttribute("bookingid");
@@ -75,7 +72,7 @@ public class TestIntegrationFlow1 extends BaseTest {
     }
 
     @Test(groups = "qa", priority = 3)
-    @Owner("Promode")
+    @Owner("Abhishek")
     @Description("TC#INT1 - Step 3. Verify Updated Booking by ID")
     public void testUpdateBookingByID(ITestContext iTestContext){
 
@@ -108,7 +105,7 @@ public class TestIntegrationFlow1 extends BaseTest {
     }
 
     @Test(groups = "qa", priority = 4)
-    @Owner("Promode")
+    @Owner("Abhishek")
     @Description("TC#INT1 - Step 4. Delete the Booking by ID")
     public void testDeleteBookingById(ITestContext iTestContext){
 

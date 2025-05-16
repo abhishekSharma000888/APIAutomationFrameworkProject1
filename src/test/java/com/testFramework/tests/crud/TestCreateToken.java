@@ -13,7 +13,7 @@ public class TestCreateToken extends BaseTest {
 
     @Test(groups = "reg", priority = 1)
     @TmsLink("https://bugz.atlassian.net/browse/TS-1")
-    @Owner("Promode")
+    @Owner("Abhishek")
     @Description("TC#2  - Create Token and Verify")
     public void testTokenPOST() {
         // Prep of Req
