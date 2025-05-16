@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="/Users/abhisheksharma/Downloads/SDETProjects/APIAutomationFrameworkProject1(failed)" verbose="0">
+    <classes>
+      <class name="com.testFramework.tests.e2e_integration.TestIntegrationFlow1">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="testDeleteBookingById" invocation-numbers="0"/>
+          <include name="testCreateBooking" invocation-numbers="0"/>
+          <include name="testUpdateBookingByID" invocation-numbers="0"/>
+          <include name="testVerifyBookingId" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.testFramework.tests.e2e_integration.TestIntegrationFlow1 -->
+      <class name="com.testFramework.tests.crud.TestCreateToken">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="testTokenPOST"/>
+        </methods>
+      </class> <!-- com.testFramework.tests.crud.TestCreateToken -->
+      <class name="com.testFramework.tests.crud.TestHealthCheck">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="testGETHealthCheck"/>
+        </methods>
+      </class> <!-- com.testFramework.tests.crud.TestHealthCheck -->
+      <class name="com.testFramework.tests.crud.TestCreateBooking">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="testCreateBookingPOST_POSITIVE_CHINESE"/>
+        </methods>
+      </class> <!-- com.testFramework.tests.crud.TestCreateBooking -->
+    </classes>
+  </test> <!-- /Users/abhisheksharma/Downloads/SDETProjects/APIAutomationFrameworkProject1(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

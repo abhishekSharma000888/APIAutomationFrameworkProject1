@@ -1,0 +1,7 @@
+com/testFramework/pojos/request/Booking.class
+com/testFramework/endpoints/APIConstants.class
+com/testFramework/modules/PayloadManager.class
+com/testFramework/pojos/response/BookingResponse.class
+com/testFramework/pojos/request/Bookingdates.class
+com/testFramework/pojos/request/Auth.class
+com/testFramework/pojos/response/TokenResponse.class

@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="17" passed="10" failed="7" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-16T10:34:57 IST" name="All Test Suite" finished-at="2025-05-16T10:35:07 IST" duration-ms="10264">
+    <groups>
+      <group name="qa">
+        <method signature="TestIntegrationFlow1.testCreateBooking(org.testng.ITestContext)[pri:1, instance:com.testFramework.tests.e2e_integration.TestIntegrationFlow1@51e69659]" name="testCreateBooking" class="com.testFramework.tests.e2e_integration.TestIntegrationFlow1"/>
+        <method signature="TestIntegrationFlow2.testCreateBooking(org.testng.ITestContext)[pri:1, instance:com.testFramework.tests.e2e_integration.TestIntegrationFlow2@47e2e487]" name="testCreateBooking" class="com.testFramework.tests.e2e_integration.TestIntegrationFlow2"/>
+        <method signature="TestIntegrationSample.testCreateBooking()[pri:1, instance:com.testFramework.tests.sample.TestIntegrationSample@201a4587]" name="testCreateBooking" class="com.testFramework.tests.sample.TestIntegrationSample"/>
+        <method signature="TestIntegrationFlow1.testVerifyBookingId(org.testng.ITestContext)[pri:2, instance:com.testFramework.tests.e2e_integration.TestIntegrationFlow1@51e69659]" name="testVerifyBookingId" class="com.testFramework.tests.e2e_integration.TestIntegrationFlow1"/>
+        <method signature="TestIntegrationFlow2.testVerifyBookingId(org.testng.ITestContext)[pri:2, instance:com.testFramework.tests.e2e_integration.TestIntegrationFlow2@47e2e487]" name="testVerifyBookingId" class="com.testFramework.tests.e2e_integration.TestIntegrationFlow2"/>
+        <method signature="TestIntegrationSample.testVerifyBookingId()[pri:2, instance:com.testFramework.tests.sample.TestIntegrationSample@201a4587]" name="testVerifyBookingId" class="com.testFramework.tests.sample.TestIntegrationSample"/>
+        <method signature="TestIntegrationFlow1.testUpdateBookingByID(org.testng.ITestContext)[pri:3, instance:com.testFramework.tests.e2e_integration.TestIntegrationFlow1@51e69659]" name="testUpdateBookingByID" class="com.testFramework.tests.e2e_integration.TestIntegrationFlow1"/>
+        <method signature="TestIntegrationSample.testUpdateBookingByID()[pri:3, instance:com.testFramework.tests.sample.TestIntegrationSample@201a4587]" name="testUpdateBookingByID" class="com.testFramework.tests.sample.TestIntegrationSample"/>
+        <method signature="TestIntegrationFlow1.testDeleteBookingById(org.testng.ITestContext)[pri:4, instance:com.testFramework.tests.e2e_integration.TestIntegrationFlow1@51e69659]" name="testDeleteBookingById" class="com.testFramework.tests.e2e_integration.TestIntegrationFlow1"/>
+        <method signature="TestIntegrationFlow2.testDeleteBookingById(org.testng.ITestContext)[pri:4, instance:com.testFramework.tests.e2e_integration.TestIntegrationFlow2@47e2e487]" name="testDeleteBookingById" class="com.testFramework.tests.e2e_integration.TestIntegrationFlow2"/>
+        <method signature="TestIntegrationSample.testDeleteBookingById()[pri:4, instance:com.testFramework.tests.sample.TestIntegrationSample@201a4587]" name="testDeleteBookingById" class="com.testFramework.tests.sample.TestIntegrationSample"/>
+      </group> <!-- qa -->
+      <group name="reg">
+        <method signature="TestCreateBooking.testCreateBookingPOST_Negative()[pri:1, instance:com.testFramework.tests.crud.TestCreateBooking@290222c1]" name="testCreateBookingPOST_Negative" class="com.testFramework.tests.crud.TestCreateBooking"/>
+        <method signature="TestCreateBooking.testCreateBookingPOST_POSITIVE_CHINESE()[pri:1, instance:com.testFramework.tests.crud.TestCreateBooking@290222c1]" name="testCreateBookingPOST_POSITIVE_CHINESE" class="com.testFramework.tests.crud.TestCreateBooking"/>
+        <method signature="TestCreateBooking.testCreateBookingPOST_POSITIVE_RANDOM_DATA()[pri:1, instance:com.testFramework.tests.crud.TestCreateBooking@290222c1]" name="testCreateBookingPOST_POSITIVE_RANDOM_DATA" class="com.testFramework.tests.crud.TestCreateBooking"/>
+        <method signature="TestCreateBooking.testCreateBookingPOST_Positive()[pri:1, instance:com.testFramework.tests.crud.TestCreateBooking@290222c1]" name="testCreateBookingPOST_Positive" class="com.testFramework.tests.crud.TestCreateBooking"/>
+        <method signature="TestCreateToken.testTokenPOST()[pri:1, instance:com.testFramework.tests.crud.TestCreateToken@82de64a]" name="testTokenPOST" class="com.testFramework.tests.crud.TestCreateToken"/>
+      </group> <!-- reg -->
+    </groups>
+    <test started-at="2025-05-16T10:34:57 IST" name="/Users/abhisheksharma/Downloads/SDETProjects/APIAutomationFrameworkProject1" finished-at="2025-05-16T10:35:07 IST" duration-ms="10264">
+      <class name="com.testFramework.tests.sample.TestIntegrationSample">
+        <test-method signature="testCreateBooking()[pri:1, instance:com.testFramework.tests.sample.TestIntegrationSample@201a4587]" started-at="2025-05-16T10:35:07 IST" name="testCreateBooking" finished-at="2025-05-16T10:35:07 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateBooking -->
+        <test-method signature="testVerifyBookingId()[pri:2, instance:com.testFramework.tests.sample.TestIntegrationSample@201a4587]" started-at="2025-05-16T10:35:07 IST" name="testVerifyBookingId" finished-at="2025-05-16T10:35:07 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyBookingId -->
+        <test-method signature="testUpdateBookingByID()[pri:3, instance:com.testFramework.tests.sample.TestIntegrationSample@201a4587]" started-at="2025-05-16T10:35:07 IST" name="testUpdateBookingByID" finished-at="2025-05-16T10:35:07 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateBookingByID -->
+        <test-method signature="testDeleteBookingById()[pri:4, instance:com.testFramework.tests.sample.TestIntegrationSample@201a4587]" started-at="2025-05-16T10:35:07 IST" name="testDeleteBookingById" finished-at="2025-05-16T10:35:07 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteBookingById -->
+      </class> <!-- com.testFramework.tests.sample.TestIntegrationSample -->
+      <class name="com.testFramework.tests.crud.TestCreateBooking">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.testFramework.tests.crud.TestCreateBooking@290222c1]" started-at="2025-05-16T10:34:57 IST" name="setup" finished-at="2025-05-16T10:34:57 IST" duration-ms="502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCreateBookingPOST_Positive()[pri:1, instance:com.testFramework.tests.crud.TestCreateBooking@290222c1]" started-at="2025-05-16T10:34:57 IST" name="testCreateBookingPOST_Positive" finished-at="2025-05-16T10:35:00 IST" duration-ms="3007" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateBookingPOST_Positive -->
+        <test-method signature="testCreateBookingPOST_Negative()[pri:1, instance:com.testFramework.tests.crud.TestCreateBooking@290222c1]" started-at="2025-05-16T10:35:00 IST" name="testCreateBookingPOST_Negative" finished-at="2025-05-16T10:35:02 IST" duration-ms="1601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateBookingPOST_Negative -->
+        <test-method signature="testCreateBookingPOST_POSITIVE_CHINESE()[pri:1, instance:com.testFramework.tests.crud.TestCreateBooking@290222c1]" started-at="2025-05-16T10:35:02 IST" name="testCreateBookingPOST_POSITIVE_CHINESE" finished-at="2025-05-16T10:35:04 IST" duration-ms="1599" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Expected status code <500> but was <200>.
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <500> but was <200>.
+
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+at com.testFramework.tests.crud.TestCreateBooking.testCreateBookingPOST_POSITIVE_CHINESE(TestCreateBooking.java:58)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateBookingPOST_POSITIVE_CHINESE -->
+        <test-method signature="testCreateBookingPOST_POSITIVE_RANDOM_DATA()[pri:1, instance:com.testFramework.tests.crud.TestCreateBooking@290222c1]" started-at="2025-05-16T10:35:04 IST" name="testCreateBookingPOST_POSITIVE_RANDOM_DATA" finished-at="2025-05-16T10:35:05 IST" duration-ms="1764" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateBookingPOST_POSITIVE_RANDOM_DATA -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testFramework.tests.crud.TestCreateBooking@290222c1]" started-at="2025-05-16T10:35:07 IST" name="tearDown" finished-at="2025-05-16T10:35:07 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testFramework.tests.crud.TestCreateBooking -->
+      <class name="com.testFramework.tests.e2e_integration.TestIntegrationFlow2">
+        <test-method signature="testCreateBooking(org.testng.ITestContext)[pri:1, instance:com.testFramework.tests.e2e_integration.TestIntegrationFlow2@47e2e487]" started-at="2025-05-16T10:35:07 IST" name="testCreateBooking" finished-at="2025-05-16T10:35:07 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@a047bdb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateBooking -->
+        <test-method signature="testVerifyBookingId(org.testng.ITestContext)[pri:2, instance:com.testFramework.tests.e2e_integration.TestIntegrationFlow2@47e2e487]" started-at="2025-05-16T10:35:07 IST" name="testVerifyBookingId" finished-at="2025-05-16T10:35:07 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@a047bdb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyBookingId -->
+        <test-method signature="testDeleteBookingById(org.testng.ITestContext)[pri:4, instance:com.testFramework.tests.e2e_integration.TestIntegrationFlow2@47e2e487]" started-at="2025-05-16T10:35:07 IST" name="testDeleteBookingById" finished-at="2025-05-16T10:35:07 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@a047bdb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteBookingById -->
+      </class> <!-- com.testFramework.tests.e2e_integration.TestIntegrationFlow2 -->
+      <class name="com.testFramework.tests.e2e_integration.TestIntegrationFlow1">
+        <test-method signature="testCreateBooking(org.testng.ITestContext)[pri:1, instance:com.testFramework.tests.e2e_integration.TestIntegrationFlow1@51e69659]" started-at="2025-05-16T10:35:05 IST" name="testCreateBooking" finished-at="2025-05-16T10:35:05 IST" duration-ms="1" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@a047bdb]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "io.restassured.specification.RequestSpecification.basePath(String)" because "this.requestSpecification" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "io.restassured.specification.RequestSpecification.basePath(String)" because "this.requestSpecification" is null
+at com.testFramework.tests.e2e_integration.TestIntegrationFlow1.testCreateBooking(TestIntegrationFlow1.java:36)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateBooking -->
+        <test-method signature="testVerifyBookingId(org.testng.ITestContext)[pri:2, instance:com.testFramework.tests.e2e_integration.TestIntegrationFlow1@51e69659]" started-at="2025-05-16T10:35:05 IST" name="testVerifyBookingId" finished-at="2025-05-16T10:35:05 IST" duration-ms="2" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@a047bdb]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "io.restassured.specification.RequestSpecification.basePath(String)" because "this.requestSpecification" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "io.restassured.specification.RequestSpecification.basePath(String)" because "this.requestSpecification" is null
+at com.testFramework.tests.e2e_integration.TestIntegrationFlow1.testVerifyBookingId(TestIntegrationFlow1.java:60)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyBookingId -->
+        <test-method signature="testUpdateBookingByID(org.testng.ITestContext)[pri:3, instance:com.testFramework.tests.e2e_integration.TestIntegrationFlow1@51e69659]" started-at="2025-05-16T10:35:05 IST" name="testUpdateBookingByID" finished-at="2025-05-16T10:35:05 IST" duration-ms="2" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@a047bdb]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.testFramework.modules.PayloadManager.setAuthPayload()" because "this.payloadManager" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.testFramework.modules.PayloadManager.setAuthPayload()" because "this.payloadManager" is null
+at com.testFramework.base.BaseTest.getToken(BaseTest.java:45)
+at com.testFramework.tests.e2e_integration.TestIntegrationFlow1.testUpdateBookingByID(TestIntegrationFlow1.java:81)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateBookingByID -->
+        <test-method signature="testDeleteBookingById(org.testng.ITestContext)[pri:4, instance:com.testFramework.tests.e2e_integration.TestIntegrationFlow1@51e69659]" started-at="2025-05-16T10:35:05 IST" name="testDeleteBookingById" finished-at="2025-05-16T10:35:07 IST" duration-ms="1580" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@a047bdb]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Expected status code <201> but was <403>.
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <201> but was <403>.
+
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+at com.testFramework.tests.e2e_integration.TestIntegrationFlow1.testDeleteBookingById(TestIntegrationFlow1.java:120)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteBookingById -->
+      </class> <!-- com.testFramework.tests.e2e_integration.TestIntegrationFlow1 -->
+      <class name="com.testFramework.tests.crud.TestHealthCheck">
+        <test-method signature="testGETHealthCheck()[pri:0, instance:com.testFramework.tests.crud.TestHealthCheck@659499f1]" started-at="2025-05-16T10:35:05 IST" name="testGETHealthCheck" finished-at="2025-05-16T10:35:05 IST" duration-ms="3" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "io.restassured.specification.RequestSpecification.basePath(String)" because "this.requestSpecification" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "io.restassured.specification.RequestSpecification.basePath(String)" because "this.requestSpecification" is null
+at com.testFramework.tests.crud.TestHealthCheck.testGETHealthCheck(TestHealthCheck.java:17)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGETHealthCheck -->
+      </class> <!-- com.testFramework.tests.crud.TestHealthCheck -->
+      <class name="com.testFramework.tests.crud.TestCreateToken">
+        <test-method signature="testTokenPOST()[pri:1, instance:com.testFramework.tests.crud.TestCreateToken@82de64a]" started-at="2025-05-16T10:35:05 IST" name="testTokenPOST" finished-at="2025-05-16T10:35:05 IST" duration-ms="17" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "io.restassured.specification.RequestSpecification.basePath(String)" because "this.requestSpecification" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "io.restassured.specification.RequestSpecification.basePath(String)" because "this.requestSpecification" is null
+at com.testFramework.tests.crud.TestCreateToken.testTokenPOST(TestCreateToken.java:20)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTokenPOST -->
+      </class> <!-- com.testFramework.tests.crud.TestCreateToken -->
+    </test> <!-- /Users/abhisheksharma/Downloads/SDETProjects/APIAutomationFrameworkProject1 -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

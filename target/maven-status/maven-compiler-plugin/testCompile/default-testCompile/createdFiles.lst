@@ -1,0 +1,8 @@
+com/testFramework/base/BaseTest.class
+com/testFramework/tests/sample/TestIntegrationSample.class
+com/testFramework/asserts/AssertActions.class
+com/testFramework/tests/crud/TestCreateBooking.class
+com/testFramework/tests/e2e_integration/TestIntegrationFlow2.class
+com/testFramework/tests/crud/TestCreateToken.class
+com/testFramework/tests/e2e_integration/TestIntegrationFlow1.class
+com/testFramework/tests/crud/TestHealthCheck.class
